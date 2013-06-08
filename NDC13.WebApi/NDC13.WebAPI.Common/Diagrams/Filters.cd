@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Web.Http.Filters.FilterAttribute" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="System.Web.Http.Filters.ActionFilterAttribute" Collapsed="true">
+    <Position X="4" Y="2.5" Width="2" />
+    <InheritanceLine Type="System.Web.Http.Filters.FilterAttribute" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="1.191" />
+        <Point X="7" Y="2.875" />
+        <Point X="6" Y="2.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.Http.Filters.AuthorizationFilterAttribute" Collapsed="true">
+    <Position X="4" Y="1.25" Width="2" />
+    <InheritanceLine Type="System.Web.Http.Filters.FilterAttribute" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="1.191" />
+        <Point X="7" Y="1.563" />
+        <Point X="6" Y="1.563" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.Http.Filters.ExceptionFilterAttribute" Collapsed="true">
+    <Position X="4" Y="3.75" Width="2" />
+    <InheritanceLine Type="System.Web.Http.Filters.FilterAttribute" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="1.191" />
+        <Point X="7" Y="4.125" />
+        <Point X="6" Y="4.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="System.Web.Http.Filters.IFilter" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Web.Http.Filters.IActionFilter" Collapsed="true">
+    <Position X="2" Y="2.5" Width="1.75" />
+    <InheritanceLine Type="System.Web.Http.Filters.IFilter" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="1.062" />
+        <Point X="1.5" Y="2.875" />
+        <Point X="2" Y="2.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Web.Http.Filters.IAuthorizationFilter" Collapsed="true">
+    <Position X="2" Y="1.25" Width="1.75" />
+    <InheritanceLine Type="System.Web.Http.Filters.IFilter" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="1.062" />
+        <Point X="1.5" Y="1.562" />
+        <Point X="2" Y="1.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Web.Http.Filters.IExceptionFilter" Collapsed="true">
+    <Position X="2" Y="3.75" Width="1.75" />
+    <InheritanceLine Type="System.Web.Http.Filters.IFilter" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="1.062" />
+        <Point X="1.5" Y="4.125" />
+        <Point X="2" Y="4.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

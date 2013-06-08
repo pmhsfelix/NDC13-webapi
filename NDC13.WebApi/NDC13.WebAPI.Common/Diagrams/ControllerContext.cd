@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Web.Http.Controllers.HttpControllerContext">
+    <Position X="4.5" Y="2.25" Width="2.5" />
+    <Members>
+      <Method Name="HttpControllerContext" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Request" Type="System.Net.Http.HttpRequestMessage" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="2.313" />
+        <Point X="4.125" Y="2.313" />
+        <Point X="4.125" Y="1.031" />
+        <Point X="3" Y="1.031" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ControllerDescriptor" Type="System.Web.Http.Controllers.HttpControllerDescriptor" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="2.563" />
+        <Point X="3.708" Y="2.563" />
+        <Point X="3.708" Y="2.34" />
+        <Point X="3" Y="2.34" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.023" Y="-0.515" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="RouteData" Type="System.Web.Http.Routing.IHttpRouteData" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="3.25" />
+        <Point X="4.125" Y="3.25" />
+        <Point X="4.125" Y="4.531" />
+        <Point X="3" Y="4.531" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Configuration" Type="System.Web.Http.HttpConfiguration" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="3" />
+        <Point X="3.733" Y="3" />
+        <Point X="3.733" Y="3.781" />
+        <Point X="3" Y="3.781" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.035" Y="-0.248" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Request" />
+      <Property Name="ControllerDescriptor" />
+      <Property Name="RouteData" />
+      <Property Name="Configuration" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Net.Http.HttpRequestMessage" Collapsed="true">
+    <Position X="1" Y="0.75" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.Http.Controllers.HttpControllerDescriptor">
+    <Position X="1" Y="1.5" Width="2" />
+    <Members>
+      <Method Name="CreateController" Hidden="true" />
+      <Method Name="GetCustomAttributes" Hidden="true" />
+      <Method Name="GetFilters" Hidden="true" />
+      <Method Name="HttpControllerDescriptor" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Web.Http.HttpConfiguration" Collapsed="true">
+    <Position X="1" Y="3.5" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="System.Web.Http.Routing.IHttpRouteData" Collapsed="true">
+    <Position X="1" Y="4.25" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

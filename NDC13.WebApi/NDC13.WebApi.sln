@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDC13.WebAPI.Common", "NDC13.WebAPI.Common\NDC13.WebAPI.Common.csproj", "{0053C0C3-0DC1-47F9-A4D2-B8FDE2C3876C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDC13.WebAPI.SelfHost", "NDC13.WebAPI.SelfHost\NDC13.WebAPI.SelfHost.csproj", "{81438046-2D07-4F94-89F1-427F4E46BCA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDC13.WebAPI.Facts", "NDC13.WebAPI.Facts\NDC13.WebAPI.Facts.csproj", "{79F2D21C-C600-4A8D-9C0D-0FAFD41AFD97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0053C0C3-0DC1-47F9-A4D2-B8FDE2C3876C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0053C0C3-0DC1-47F9-A4D2-B8FDE2C3876C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0053C0C3-0DC1-47F9-A4D2-B8FDE2C3876C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0053C0C3-0DC1-47F9-A4D2-B8FDE2C3876C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81438046-2D07-4F94-89F1-427F4E46BCA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81438046-2D07-4F94-89F1-427F4E46BCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81438046-2D07-4F94-89F1-427F4E46BCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81438046-2D07-4F94-89F1-427F4E46BCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F2D21C-C600-4A8D-9C0D-0FAFD41AFD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F2D21C-C600-4A8D-9C0D-0FAFD41AFD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F2D21C-C600-4A8D-9C0D-0FAFD41AFD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F2D21C-C600-4A8D-9C0D-0FAFD41AFD97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

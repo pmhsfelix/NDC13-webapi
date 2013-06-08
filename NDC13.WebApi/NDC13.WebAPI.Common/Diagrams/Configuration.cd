@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Web.Http.HttpConfiguration">
+    <Position X="0.5" Y="2.25" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="HttpConfiguration" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.Http.SelfHost.HttpSelfHostConfiguration">
+    <Position X="4" Y="2.25" Width="3" />
+    <Members>
+      <Method Name="HttpSelfHostConfiguration" Hidden="true" />
+      <Method Name="OnConfigureBinding" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Web.Http.GlobalConfiguration">
+    <Position X="0.5" Y="0.75" Width="3" />
+    <AssociationLine Name="Configuration" Type="System.Web.Http.HttpConfiguration">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.098" Y="0.085" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Configuration" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Web.Http.HttpServer">
+    <Position X="0.5" Y="5.75" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="HttpServer" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="SendAsync" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Configuration" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Web.Http.SelfHost.HttpSelfHostServer">
+    <Position X="4" Y="5.75" Width="3" />
+    <Members>
+      <Method Name="CloseAsync" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="HttpSelfHostServer" Hidden="true" />
+      <Method Name="OpenAsync" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
